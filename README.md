@@ -45,6 +45,14 @@ docker run -d -p 8080:80 \
 This would require a configuration file named
 `configuration-my-bridge-implementation.js`.
 
+TODO
+----
+
+- Use `entrypoint.sh` to define php.ini values.
+- Use `entrypoint.sh` to define the current user (now is forced to uid/gid 1000).
+- Use `entrypoint.sh` in conjunction with env vars to define angular-filemanager
+  configuration options.
+
 Credits & License
 -----------------
 
