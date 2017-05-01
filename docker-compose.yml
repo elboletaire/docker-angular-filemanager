@@ -1,0 +1,8 @@
+angular-filemanager:
+  image: elboletaire/angular-filemanager:latest
+  ports:
+  - 8282:80
+  volumes:
+  - ./:/var/www/files
+  environment:
+    BRIDGE: php-local
